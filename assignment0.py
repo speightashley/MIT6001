@@ -8,4 +8,3 @@ logged = log(raised)
 
 print(f"{x} raised to the power of {y} is {raised}. \nThe logarithm of {raised} is {logged}")
 
-
