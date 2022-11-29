@@ -132,8 +132,8 @@ def hangman(secret_word):
     Follows the other limitations detailed in the problem write-up.
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    #secret_word = choose_word(wordlist)
-    secret_word = "abcde"
+    # secret_word = choose_word(wordlist)
+    # secret_word = "abcde"
     guesses = 6
     length = len(secret_word)
     guessed_letters = []
@@ -205,7 +205,33 @@ def match_with_gaps(my_word, other_word):
         False otherwise: 
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    my_word_stripped = my_word.replace(" ", "")
+    same_char = list()
+    blank_stripped = list()
+    if len(my_word_stripped) == len(other_word):
+        for index, letter in enumerate(my_word_stripped):
+            if letter in string.ascii_lowercase:
+                same_char.append(index)
+            else:
+                blank_stripped.append(index)
+
+    else:
+        return False
+
+    mws = ''
+    ow = ''
+    for index_same in same_char:
+        for index_dif in blank_stripped:
+            if other_word[index_dif] == other_word[index_same]:
+                return False
+            else:
+                mws += my_word_stripped[index_same]
+                ow += other_word[index_same]
+
+    if mws == ow:
+        return True
+    else:
+        return False
 
 
 def show_possible_matches(my_word):
@@ -219,7 +245,15 @@ def show_possible_matches(my_word):
 
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+
+    possible_matches = list()
+    for i in wordlist:
+        if match_with_gaps(my_word, i):
+            possible_matches.append(i)
+
+    spm = ' '.join(possible_matches)
+
+    return spm
 
 
 def hangman_with_hints(secret_word):
