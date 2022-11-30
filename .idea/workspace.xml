@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8efe3a86-cf71-484e-a889-3f7f8893a041" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lecture7/fingerexercise7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PS2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
