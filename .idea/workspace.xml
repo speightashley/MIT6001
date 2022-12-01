@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8efe3a86-cf71-484e-a889-3f7f8893a041" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture7/fingerexercise7-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS3/scratchpad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PS3/ps3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PS3/ps3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <recent name="$PROJECT_DIR$/Lecture4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ps1c">
+  <component name="RunManager">
     <configuration name="ps1c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MIT6001" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +123,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ps1b.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lecture3/fingerexercise3-1.py</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
@@ -140,6 +136,11 @@
           <url>file://$PROJECT_DIR$/Lecture2/bisectionsearchfrommemory.py</url>
           <line>7</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PS3/scratchpad.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
