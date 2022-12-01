@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8efe3a86-cf71-484e-a889-3f7f8893a041" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture7/fingerexercise7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture7/fingerexercise7-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <recent name="$PROJECT_DIR$/Lecture4" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ps1c">
     <configuration name="ps1c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MIT6001" />
       <option name="INTERPRETER_OPTIONS" value="" />
